@@ -66,7 +66,7 @@ input,button{
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.text-item {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -78,7 +78,7 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.text-item:focus {
     color: #333;
 }
 
@@ -87,7 +87,7 @@ input[type="text"]:focus {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+.text-new-task {
     width: 318px;
 }
 
@@ -105,16 +105,16 @@ input#new-task {
     vertical-align: middle;
 }
 
-.list-item > input[type="checkbox"] {
+.choice-item {
     margin: 0 10px;
 }
-.list-item> label {
+.list-item-text {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.list-item >    input[type="text"] {
+.list-item >    .text-item {
     width: 226px
 }
 .delete-item-img {
@@ -127,21 +127,17 @@ input#new-task {
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through
+.list-task#completed-tasks .list-item-text {
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.inactive-edit {
     display:none
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode .active-edit {
     display:inline-block;
     width:224px
-}
-
-ul li.edit-mode label {
-    display:none;
 }

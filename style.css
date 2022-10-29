@@ -37,7 +37,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -136,7 +136,7 @@ input,button{
 }
 
 .list-item >    .text-item {
-    width: 226px
+    width: 226px;
 }
 
 .delete-item-img {
@@ -157,10 +157,10 @@ input,button{
 
 /* Edit Task */
 .inactive-edit {
-    display: none
+    display: none;
 }
 
 .edit-mode .active-edit {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }

@@ -22,7 +22,8 @@ body {
 
 @media (max-width:768px) {
 
-.header { text-align: center;
+.header {
+     text-align: center;
 }
 
 }
@@ -44,16 +45,16 @@ body {
 }
 
 .list-task {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .list-item, .title-task {
-    list-style:none;
+    list-style: none;
 }
 
 input,button{
-    outline:none;
+    outline: none;
 }
 
 .add-item, .delete-item, .edit-item {
@@ -156,10 +157,10 @@ input,button{
 
 /* Edit Task */
 .inactive-edit {
-    display:none
+    display: none
 }
 
 .edit-mode .active-edit {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }

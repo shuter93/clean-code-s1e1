@@ -49,7 +49,8 @@ body {
     padding: 0px;
 }
 
-.list-item, .title-task {
+.list-item,
+.title-task {
     list-style: none;
 }
 
@@ -57,7 +58,9 @@ input,button{
     outline: none;
 }
 
-.add-item, .delete-item, .edit-item {
+.add-item,
+.delete-item,
+.edit-item {
     background: none;
     border: 0px;
     color: #888;
@@ -67,12 +70,15 @@ input,button{
     cursor: pointer;
 }
 
-.add-item:hover, .delete-item:hover, .edit-item:hover {
+.add-item:hover,
+.delete-item:hover,
+.edit-item:hover {
     color: #3a3A3a;
 }
 
 /* Heading */
-.title-task, .title-new-task {
+.title-task,
+.title-new-task {
     color: #333;
     font-weight: 700;
     font-size: 15px;
